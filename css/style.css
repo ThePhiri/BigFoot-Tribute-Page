@@ -1,0 +1,244 @@
+body{
+    position: relative;
+    margin: 0;
+    font-family: sans-serif, franklin-gothic;
+    text-align: center;
+    background-color: #fbeec1;
+    font-size: 1.3em;
+    min-width: 360px;
+
+}
+
+nav {
+    display: inline-block;
+    background-color:#ad8c72;
+    width: 100%;
+    padding: 10px;
+     margin-top: = 0;
+}
+
+nav li{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    margin-left: 5px;
+    list-style-type: none;
+}
+nav li a {
+
+  color: #ffffff;
+  text-align: center;
+  padding: 19px;
+  text-decoration: none;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #fbeec1;
+
+}
+.container {
+    width: 100%;
+    margin-top: -5%;
+    
+}
+
+#header {
+    background-image: url(../images/main1.jpg);
+    height: 900px;
+    background-size: cover;
+}
+
+#header h1{
+    color: #fff;
+    position: relative;
+    line-height: 700px;
+    font-size: 4em;
+}
+
+.left {
+    float: left;
+    width: 50%
+}
+
+.left img {
+    height: 400px;
+}
+
+
+
+.right {
+    float: right;
+    width: 50%
+}
+
+.right img {
+    height: 400px;
+}
+.right .meduimImg {
+  height: 700px;
+}
+
+#main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#fact-box{
+    background-color: #bc986a;
+    overflow: auto;
+    color: #fff;
+    width: 90%;
+  margin: auto;
+    padding: 10px;
+}
+
+#references {
+    text-align: left;
+    padding: 15px;
+      margin-left: 20px;
+    margin-right: 20px;
+}
+
+#btn {
+  padding: 10px 20px 10px 20px;
+  background-color: #daad86;
+}
+
+#btn:hover{
+  background-color: #8d8741;
+
+}
+
+#list{
+    list-style-type: none;
+    text-align: left;
+}
+
+.bold{
+    font-style: bold;
+}
+
+.caption {
+    margin-top: -0.2%;
+    font-style:italic;
+   
+}
+
+footer {
+  background-color: #9b8e76;
+  padding: 15px;
+  clear: both;
+}
+
+hr {
+    border-top: 1px solid #ad8c72;
+
+}
+
+/* tablet css*/
+@media only screen and (max-width: 1280px){
+.container {
+    width: 100%;
+    margin-top: -7%;
+}
+
+
+    
+#header h1{
+    color: #fff;
+    position: relative;
+    line-height: 120px;
+    font-size: 4em;
+    top: 25%;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.left img {
+    height: 400px;
+}
+
+.right {
+    float: right;
+    width: 50%;
+}
+.right img {
+    height: 400px;
+}
+
+/*small tablet css*/
+@media only screen and (max-width: 960px){
+ .container {
+    width: 100%;
+    margin-top: -8%;
+}
+
+#header h1{
+    color: #fff;
+    position: relative;
+    line-height: 120px;
+    font-size: 4em;
+      top: 25%;
+}
+
+.left {
+    float: left;
+    width: 100%;
+}
+
+.left img {
+    height: 400px;
+}
+
+.right {
+    float: right;
+    width: 100%;
+}
+.right img {
+    height: 400px;
+}
+
+
+/* css for mobile phones */
+@media only screen and (max-width: 768px){
+ .container {
+    width: 100%;
+    margin-top: -10%;
+}
+#header h1{
+    color: #fff;
+    position: relative;
+    line-height: 120px;
+    font-size: 3em;
+      top: 25%;
+}
+
+.left {
+    float: left;
+    width: 100%;
+}
+
+.left img {
+    height: 400px;
+}
+
+.right {
+    float: right;
+    width: 100%;
+}
+.right img {
+    height: 400px;
+}
+    
+    nav li{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+   
+    list-style-type: none;
+    width: 100%;
+}
