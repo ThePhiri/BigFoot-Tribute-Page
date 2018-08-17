@@ -30,7 +30,7 @@ body{
 [class*="col-"] {
     float: left;
     padding: 15px;
-    
+   
 }
 
 .row::after {
@@ -179,8 +179,6 @@ hr {
 }
 
 
-
-
 /* css for mobile phones */
 @media only screen and (max-width: 768px){
 
@@ -194,8 +192,6 @@ hr {
     font-size: 3em;
       top: 25%;
 }
-
-
     
     nav li{
     display: inline-block;
